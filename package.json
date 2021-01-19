@@ -1,0 +1,19 @@
+{
+  "name": "project_js",
+  "version": "1.0.0",
+  "description": "crud",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "tahsina",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.11.12"
+  },
+  "devDependencies": {}
+}
