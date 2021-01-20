@@ -2,10 +2,12 @@ const mongoose = require('mongoose');
 
 var studentSchema = new mongoose.Schema({
   fullName: {
-      type: String
+      type: String,
+      required: 'This field is required.'
   }  ,
   email: {
-      type:String
+      type:String,
+      required: 'This field is required.'
   },
   mobile: {
       type:String
@@ -14,5 +16,6 @@ var studentSchema = new mongoose.Schema({
       type: String
   }
 });
+
 
 mongoose.model('Student',studentSchema);
